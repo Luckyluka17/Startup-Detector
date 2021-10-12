@@ -3,8 +3,6 @@ title Startup Detector
 cls
 color f
 cd %cd%
-echo msgbox "N'oubliez pas de lire les instructions avant de commencer." >msg.vbs
-start msg.vbs
 goto :start
 
 :start
@@ -59,7 +57,7 @@ cd %appdata%\Microsoft\Windows\Start Menu\Programs\Startup
 cls
 echo *******************************
 echo Logiciel dans le dossier shell:startup :
-dir
+dir %appdata%\Microsoft\Windows\Start Menu\Programs\Startup
 echo *******************************
 echo Logiciel au demarrage :
 powershell "Get-CimInstance Win32_StartupCommand | Select-Object Name, command, Location, User | Format-List"
