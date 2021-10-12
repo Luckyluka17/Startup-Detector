@@ -4,7 +4,7 @@ Retrouvez tous les programmes au démarrage de votre ordinateur directement dans
 ⚠ Startup Detector ne permet pas de supprimer les programmes au démarrage.
 
 ## 📚 Obtenir le script
-Rendez vous dans releases, et téléchargez la dernière version.
+Cliquez sur télécharger le zip
 
 ## 🔓 Code source disponible
 Je vous laisse libre accès sur le code source. Vous pouvez réutiliser le script pour vous. Merci de bien respecter la license si vous souhaitez faire cela.
