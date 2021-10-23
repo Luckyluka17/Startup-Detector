@@ -53,11 +53,11 @@ goto :start
 
 :1
 echo Detection en cours, veuillez patientez...
-cd %appdata%\Microsoft\Windows\Start Menu\Programs\Startup
+cd "%appdata%\Microsoft\Windows\Start Menu\Programs\Startup"
 cls
 echo *******************************
 echo Logiciel dans le dossier shell:startup :
-dir %appdata%\Microsoft\Windows\Start Menu\Programs\Startup
+dir "%appdata%\Microsoft\Windows\Start Menu\Programs\Startup"
 echo *******************************
 echo Logiciel au demarrage :
 powershell "Get-CimInstance Win32_StartupCommand | Select-Object Name, command, Location, User | Format-List"
